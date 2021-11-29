@@ -1,0 +1,52 @@
+.screen__black {
+  background-color: black;
+}
+
+.wrapper__black {
+  max-width: 1440px;
+  height: 100%;
+  background-color: black;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
+.wrapper {
+  max-width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
+header {
+  height: 200px;
+  border: 2px solid yellow;
+}
+
+.welcome__content {
+  height: 750px;
+}
+
+.visiting__content {
+  height: 1265px;
+}
+
+.explore__content {
+  height: 865px;
+}
+
+.video__content {
+  height: 1009px;
+}
+
+.tickets__content {
+  height: 893px;
+}
+
+.contacts__content {
+  height: 963px;
+}
+
+.footer__content {
+  height: 300px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,105 @@
+// a {
+// 	text-decoration: none;
+// 	color: white;
+// }
+
+// header {
+// 	background-color: black;
+// 	display: flex;
+// 	justify-content: center;
+// }
+
+// .logo__header {
+// 	width: 1440px;
+// 	height: 200px;
+// 	display: flex;
+// 	align-items: center;
+// 	justify-content: space-between;
+// }
+
+// .menu__left {
+// 	display: flex;
+// 	width: 195px;
+// 	height: 50px;
+// 	align-items: center;
+// 	.logo__img {
+// 		padding-right: 20px;
+// 	}
+// }
+
+// .menu__right {
+// 	.menu__items {
+// 		display: flex;
+// 		list-style: none;
+// 		.menu__item {
+// 			margin-left: 76px;
+// 			font-family: "Roboto";
+// 			font-weight: 100;
+// 			list-style-type: none;
+// 			font-size: 22px;
+// 			letter-spacing: 2px;
+// 		}
+// 	}
+// }
+
+// .logo__name {
+// 	color: white;
+// 	font-family: Forum, sans-serif;
+// 	font-size: 28px;
+// 	letter-spacing: 5px;
+// }
+
+// .menu__items {
+// 	color: white;
+// }
+
+.screen__black {
+	background-color: black;
+}
+
+.wrapper__black {
+	max-width: 1440px;
+	height: 100%;
+	background-color: black;
+	margin: 0 auto;
+	border: 2px solid red;
+}
+.wrapper {
+	max-width: 1440px;
+	height: 100%;
+	margin: 0 auto;
+	border: 2px solid red;
+}
+
+header {
+	height: 200px;
+	border: 2px solid yellow;
+}
+
+.welcome__content {
+	height: 750px;
+}
+
+.visiting__content {
+	height: 1265px;
+}
+
+.explore__content {
+	height: 865px;
+}
+
+.video__content {
+	height: 1009px;
+}
+
+.tickets__content {
+	height: 893px;
+}
+
+.contacts__content {
+	height: 963px;
+}
+
+.footer__content {
+	height: 300px;
+}
