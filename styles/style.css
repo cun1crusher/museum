@@ -1,4 +1,10 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .screen__black {
+  width: 1920px;
   background-color: black;
 }
 
@@ -7,19 +13,72 @@
   height: 100%;
   background-color: black;
   margin: 0 auto;
-  border: 2px solid red;
 }
 
 .wrapper {
   max-width: 1440px;
   height: 100%;
   margin: 0 auto;
-  border: 2px solid red;
 }
 
-header {
+.header__content {
   height: 200px;
-  border: 2px solid yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__content .logo__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 74px;
+  width: 195px;
+  height: 50px;
+}
+
+.header__content .logo__wrapper a {
+  display: inline-block;
+  font-family: Forum, sans-serif;
+  font-size: 28px;
+  letter-spacing: 5px;
+  margin-right: 20px;
+}
+
+.header__content .logo__wrapper img {
+  width: 50px;
+  height: 34px;
+}
+
+.header__content .nav__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__content .nav__menu .nav__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__content .nav__menu .nav__items .nav__item {
+  list-style-type: none;
+  margin-left: 76px;
+  font-family: "Roboto";
+  font-weight: 100;
+  list-style-type: none;
+  font-size: 22px;
+  letter-spacing: 2px;
 }
 
 .welcome__content {
