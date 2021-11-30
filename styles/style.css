@@ -81,8 +81,76 @@ a {
   letter-spacing: 2px;
 }
 
+.screen__welcome {
+  position: relative;
+  z-index: 2;
+}
+
+.screen__welcome .welcome__image {
+  position: absolute;
+  z-index: -1;
+  left: 705px;
+}
+
 .welcome__content {
   height: 750px;
+}
+
+.welcome__content .content__text {
+  width: 598px;
+  height: 390px;
+  padding-top: 114px;
+  display: block;
+}
+
+.welcome__content .content__text h1 {
+  font-family: Forum, sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  color: #ffffff;
+  margin: 0;
+  padding-bottom: 26px;
+  line-height: 90px;
+}
+
+.welcome__content .content__text h1 span {
+  display: block;
+}
+
+.welcome__content .content__text h2 {
+  margin: 0;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 28px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  padding-bottom: 76px;
+}
+
+.welcome__content .content__text .welcome__button {
+  width: 360px;
+  height: 75px;
+  background-color: #710707;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.welcome__content .content__text .welcome__button span {
+  font-family: "Roboto";
+  font-weight: 100;
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  margin: 0 auto;
 }
 
 .visiting__content {
